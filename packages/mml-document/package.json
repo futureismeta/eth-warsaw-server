@@ -1,0 +1,21 @@
+{
+  "name": "mml-doc",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "node ./build.js --build",
+    "iterate": "node ./build.js --watch",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --max-warnings 0",
+    "lint:fix": "eslint \"./src/**/*.{js,jsx,ts,tsx}\" --fix"
+  },
+  "dependencies": {
+    "@mml-io/mml-react-types": "0.14.0",
+    "@react-three/fiber": "^8.16.7",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.165.0"
+  }
+}
