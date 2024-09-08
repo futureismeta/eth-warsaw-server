@@ -11,8 +11,8 @@ ARG GITHUB_USERNAME
 ARG GITHUB_TOKEN
 
 # Clone the repositories using HTTPS
-RUN git clone https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@git@github.com:futureismeta/eth-warsaw-frontend.git /app/web-client
-RUN git clone https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@git@github.com:futureismeta/eth-warsaw-server.git /app/server
+RUN git clone https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/futureismeta/eth-warsaw-frontend.git /app/web-client
+RUN git clone https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/futureismeta/eth-warsaw-server.git /app/server
 
 # Install dependencies and link packages for Web Client
 WORKDIR /app/web-client
