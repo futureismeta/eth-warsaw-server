@@ -19,6 +19,7 @@ app.enable('trust proxy');
 app.use('/assets/', corsSetup(), express.static(path.resolve(dirname, '../assets/')));
 
 const webClientBuildDir = path.join(dirname, "../../../../web-client/build");
+app.get("*", express.static(webClientBuildDir));
 
 const indexContent = readFileSync(
     path.join(webClientBuildDir, "index.html"),
