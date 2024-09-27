@@ -13,8 +13,8 @@
     "lint:fix": "eslint \"./src/**/*.{ts,}\" --fix"
   },
   "dependencies": {
-    "@mml-io/3d-web-experience-server": "0.17.0",
-    "@mml-io/3d-web-user-networking": "0.17.0",
+    "@mml-io/3d-web-experience-server": "0.18.0",
+    "@mml-io/3d-web-user-networking": "0.18.0",
     "canvas": "^2.11.2",
     "chokidar": "^3.6.0",
     "cors": "^2.8.5",

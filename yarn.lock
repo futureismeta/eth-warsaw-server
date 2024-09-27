@@ -315,86 +315,86 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
-"@mml-io/3d-web-avatar@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@mml-io/3d-web-avatar/-/3d-web-avatar-0.17.0.tgz#d340239fe489d4e053fbc7e4989ea63beae7d27f"
-  integrity sha512-LtrSww3fE9fNgK6ajDm8VtXXwRMnUtjCmXxPO4sRDTM3tSAcCfqOeSmaRb0eMX794SIQRqsKzUC0ZmP9DDuxgg==
+"@mml-io/3d-web-avatar@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@mml-io/3d-web-avatar/-/3d-web-avatar-0.18.0.tgz#9695e375cbece7baa6a34bc4f1ea5d79bcc53c38"
+  integrity sha512-JOR8uLZvkTXjVpaws1E5LJeRs5484GL9oKqbG+Fy2wtTTRhrqIwvGS0jCbb1EMzV/1gWvuFCeS/Fmn6E4+wSFQ==
   dependencies:
-    "@mml-io/model-loader" "0.15.0"
-    react "^18.2.0"
-    react-dom "^18.2.0"
+    "@mml-io/model-loader" "0.16.1"
+    react "^18.3.1"
+    react-dom "^18.3.1"
     three "0.163.0"
 
-"@mml-io/3d-web-client-core@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@mml-io/3d-web-client-core/-/3d-web-client-core-0.17.0.tgz#3e1145a7e88cb6199c62650c9dfd47524c5e272c"
-  integrity sha512-Vp4/8YtpY/JnlDsgSvhitOCZIGYrfbiFaYmYGYENqoqUfOQVMCyxhaNHqZm7ROZJHUelihefwoSE/6lNql/5Dw==
+"@mml-io/3d-web-client-core@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@mml-io/3d-web-client-core/-/3d-web-client-core-0.18.0.tgz#270a3313fab8f5649ab9e1b1f07d077d06db8307"
+  integrity sha512-p4yJ6R6CuQnsy54HB6AMY36w0QezKqov4FwZmfQW8DBEcK+LtAtCSHvNxGEDG8SdJLKNBgzI/JgICUcSfWiwIA==
   dependencies:
-    "@mml-io/3d-web-avatar" "^0.17.0"
-    "@mml-io/model-loader" "0.15.0"
+    "@mml-io/3d-web-avatar" "^0.18.0"
+    "@mml-io/model-loader" "0.16.1"
     "@monogrid/gainmap-js" "^3.0.5"
-    "@tweakpane/core" "2.0.3"
+    "@tweakpane/core" "2.0.4"
     "@tweakpane/plugin-essentials" "0.2.1"
-    mml-web "0.15.0"
-    postprocessing "6.35.4"
-    three-mesh-bvh "0.7.4"
-    tweakpane "4.0.3"
+    mml-web "0.16.1"
+    postprocessing "6.35.6"
+    three-mesh-bvh "0.7.6"
+    tweakpane "4.0.4"
 
-"@mml-io/3d-web-experience-server@0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@mml-io/3d-web-experience-server/-/3d-web-experience-server-0.17.0.tgz#f3aa95ac9906f6d2119169d4b7deb655f23b613f"
-  integrity sha512-JtQenljIQN9OK57rjO9Awwz9Nlw3cHRunXs1HyarEfIjIpsSIzz8bBgPlbBxMfRdD4nws1br4LL5FAErWl4+wA==
+"@mml-io/3d-web-experience-server@0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@mml-io/3d-web-experience-server/-/3d-web-experience-server-0.18.0.tgz#50346a63f3312904b4866e2d1b786062228c35a8"
+  integrity sha512-gV439TiXyV9NxT/XVHAHtFH/j17z/jHBLZISFOvKWiZvQyRdutBKL3JRO/4VqswY/mAyocVdX7sBU5aPYSfYhg==
   dependencies:
-    "@mml-io/3d-web-client-core" "^0.17.0"
-    "@mml-io/3d-web-text-chat" "^0.17.0"
-    "@mml-io/3d-web-user-networking" "^0.17.0"
-    "@mml-io/3d-web-voice-chat" "^0.17.0"
+    "@mml-io/3d-web-client-core" "^0.18.0"
+    "@mml-io/3d-web-text-chat" "^0.18.0"
+    "@mml-io/3d-web-user-networking" "^0.18.0"
+    "@mml-io/3d-web-voice-chat" "^0.18.0"
     chokidar "^3.6.0"
     cors "^2.8.5"
     express "^4.19.2"
     express-ws "^5.0.2"
-    networked-dom-server "0.15.0"
+    networked-dom-server "0.16.1"
     three "0.163.0"
-    ws "^8.16.0"
+    ws "^8.18.0"
 
-"@mml-io/3d-web-text-chat@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@mml-io/3d-web-text-chat/-/3d-web-text-chat-0.17.0.tgz#3c76b86dbf2ca1f4f118977641d1f837d835726e"
-  integrity sha512-JIpa6WkPEdvq2/Q0K9blWVUBTS0nWkMOYFxKlR193sUAO5M3QkETx4gHm87gnpTO64jhXWYd8yERVr1VZ2Z5Vg==
+"@mml-io/3d-web-text-chat@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@mml-io/3d-web-text-chat/-/3d-web-text-chat-0.18.0.tgz#075a9b551172aa82f10c478356b389fb4f64fd69"
+  integrity sha512-ez8liXFPIPmOVei2efsRCTdv1e9PUjLMe5Un9jLdwuJ5u6GO+Mj/R5gBxejAHUv3lZRz749p4/EkW2thbCcyVw==
   dependencies:
     express "4.19.2"
     express-ws "5.0.2"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    ws "^8.16.0"
+    react "^18.3.1"
+    react-dom "^18.3.1"
+    ws "^8.18.0"
 
-"@mml-io/3d-web-user-networking@0.17.0", "@mml-io/3d-web-user-networking@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@mml-io/3d-web-user-networking/-/3d-web-user-networking-0.17.0.tgz#cd2bec47e64708f2f07cde3b56506018d8e9399b"
-  integrity sha512-N9nl2st7E2z5FN0s/Ym/i8TtDTMYgK1uv0n6BCDQIdiIcToRK83FtPjevTP5WQYIIGviKyGo/8XtLE12lBWh5w==
+"@mml-io/3d-web-user-networking@0.18.0", "@mml-io/3d-web-user-networking@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@mml-io/3d-web-user-networking/-/3d-web-user-networking-0.18.0.tgz#8b984d072867a4964a8bd6a6cc2d7d60ff6da4d2"
+  integrity sha512-cW0NEOXUhjmzHi8v0PwQO1XHTlM5PGjPNjasytJ2yFCWs2WZlN65Ax8jRlC/PLMqF7/gEbvsduwtTVNXr2kaCA==
   dependencies:
-    ws "^8.16.0"
+    ws "^8.18.0"
 
-"@mml-io/3d-web-voice-chat@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@mml-io/3d-web-voice-chat/-/3d-web-voice-chat-0.17.0.tgz#060d09bba8a7402a0bdfda84a1bee15a8f157ed8"
-  integrity sha512-QnkT3m1EYF8ejA8xol6dfmQ3Uw5cbk3tE7TKlAr19pmo8euFwd2gEjRSyyLMJxTtEDc2oXXTHM3ZeZxEL9jeFA==
+"@mml-io/3d-web-voice-chat@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@mml-io/3d-web-voice-chat/-/3d-web-voice-chat-0.18.0.tgz#b4cd5c24aebe740cc916ec34dd0551e9217195bf"
+  integrity sha512-mS5tjD0WgbUZ0VPASrCchBaS1E8JbN/LfLdtUKxLzSo57T1GLzHDsl7Y8Lv1nDQfOmoPYUpSywDFvyFgyqYvsg==
   dependencies:
-    "@mml-io/3d-web-client-core" "^0.17.0"
+    "@mml-io/3d-web-client-core" "^0.18.0"
     "@voxeet/voxeet-web-sdk" "3.11.1"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    ws "^8.16.0"
+    react "^18.3.1"
+    react-dom "^18.3.1"
+    ws "^8.18.0"
 
 "@mml-io/mml-react-types@0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@mml-io/mml-react-types/-/mml-react-types-0.14.0.tgz#a88a0f035be56a1d5fa4158b88a4c1ed42bf6e8d"
   integrity sha512-KYrJ75B081M97tZy/M57fagdJUB0yuQmEYuYhyN9Or63ZXTF13+hiLE1kro8EZV05byTR6sCUVB+aH8ZPuMm5g==
 
-"@mml-io/model-loader@0.15.0", "@mml-io/model-loader@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@mml-io/model-loader/-/model-loader-0.15.0.tgz#e6c17dccb7e9f0288b65c6d53e5a397163d9d1e0"
-  integrity sha512-gfPigaaASJI3dC9md6bmKwWigrqCkF2nlKyxKBoXqY9W7jixapRGAuWrxvdPUoD2F4TrLa9XDOwIwujljzK6Jw==
+"@mml-io/model-loader@0.16.1", "@mml-io/model-loader@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@mml-io/model-loader/-/model-loader-0.16.1.tgz#dfcb9076b8c5c67a78ecf25947fec986b7de0491"
+  integrity sha512-hR4rZFCijKRegyia02aoVG6b6XGEnD4tuphEq3Hc408ZQTS7VjDaU+jiMuc7TZyYqS7sMiIecsHg0ouZwJK45A==
   dependencies:
     three "^0.163.0"
 
@@ -407,17 +407,30 @@
     "@mml-io/observable-dom-common" "^0.15.0"
     rfc6902 "5.1.1"
 
+"@mml-io/networked-dom-document@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@mml-io/networked-dom-document/-/networked-dom-document-0.16.1.tgz#124438d4b774d1e9c13e1b55bc498b875d3bebda"
+  integrity sha512-nKYh5dHzIMn7JY/xW8NtDskcRiSxwBa723ybkKXqH5g/nXfJqsIQg9UHyCivAPjnSOSqOKfTYQUNfheoxExVuQ==
+  dependencies:
+    "@mml-io/networked-dom-protocol" "^0.16.1"
+    "@mml-io/observable-dom-common" "^0.16.1"
+
 "@mml-io/networked-dom-protocol@^0.15.0":
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/@mml-io/networked-dom-protocol/-/networked-dom-protocol-0.15.0.tgz#f11e52245378ee8baf830c2052d062863ddadacc"
   integrity sha512-fEygGRHXgP6WKB3/80h8LoV2IJvsm1de5dv2WOmqh7kEZ0ofcS6dD1GfVwNlakBybzNq12SXgKLDafTPOeNyQw==
 
-"@mml-io/networked-dom-web@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@mml-io/networked-dom-web/-/networked-dom-web-0.15.0.tgz#497a9d0600370237e34b61a41e47e1919ddeba4e"
-  integrity sha512-OEZ3ebx9XkqB3haIk6rBKGfEu7C3ez2TFwh0ERypUXjKdHOjI6D2i+9LB8kdqvQ38uz+fAmTbBxghYzUk50xjw==
+"@mml-io/networked-dom-protocol@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@mml-io/networked-dom-protocol/-/networked-dom-protocol-0.16.1.tgz#886ca9b97cdd81217a19300f19332014bfbf8625"
+  integrity sha512-RD0B5DTqP1E1z16+lIc+Y9dnPGqv1VQTOLKEQoR+OVQDhPQ/olzW+VMTw5IF/uCqC6Kt0Jx/vv/+yNwhNsHSFw==
+
+"@mml-io/networked-dom-web@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@mml-io/networked-dom-web/-/networked-dom-web-0.16.1.tgz#595adbf6812457e513a1d3c7cdcad8761856c791"
+  integrity sha512-Ejw+FUEVQFeBY/bCDLhTCN7/Irb6+LkdRRAcOd0F23E/BChH+XjjFU7M6J3mySrpey5zen5BwlmDZq6MF4maRA==
   dependencies:
-    "@mml-io/networked-dom-protocol" "^0.15.0"
+    "@mml-io/networked-dom-protocol" "^0.16.1"
 
 "@mml-io/observable-dom-common@^0.15.0":
   version "0.15.0"
@@ -426,12 +439,28 @@
   dependencies:
     "@mml-io/networked-dom-protocol" "^0.15.0"
 
+"@mml-io/observable-dom-common@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@mml-io/observable-dom-common/-/observable-dom-common-0.16.1.tgz#f77c3ad964f875fe5959fe964a8680df9c9cb3cf"
+  integrity sha512-yX4tCn9ZWQcyr3FbjrfGREVmiWcVj0b5cbrPXiNa+9+l6HOq1pXSMaSWOwX8tJpl2OQNIr+SagF+rom2DScOcQ==
+  dependencies:
+    "@mml-io/networked-dom-protocol" "^0.16.1"
+
 "@mml-io/observable-dom@^0.15.0":
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/@mml-io/observable-dom/-/observable-dom-0.15.0.tgz#ca54c964e3b308a984019a11d76b05fbb416f3a5"
   integrity sha512-oaIgmsOxrJRxCd3eEtSGbOUkKJDctPZoLc+xe3fNYBI3guNArH8KTjX/asKC6QjGVZn7yJVLhdVzKpBXxNE2JA==
   dependencies:
     "@mml-io/observable-dom-common" "^0.15.0"
+    jsdom "24.0.0"
+    node-fetch "3.3.2"
+
+"@mml-io/observable-dom@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@mml-io/observable-dom/-/observable-dom-0.16.1.tgz#f0f551d8b0f50f647ea7fdcf6d168c3fdcdd8b15"
+  integrity sha512-Or+SHDkZj/8ZS+KnvcDRKNaEjRHCR5leyVbZkZouRqDra0arA5SKlrNTcDd0hzjG8Y+yFscOHeGlubTjV4oUrQ==
+  dependencies:
+    "@mml-io/observable-dom-common" "^0.16.1"
     jsdom "24.0.0"
     node-fetch "3.3.2"
 
@@ -578,10 +607,10 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.18.0.tgz#5d694d345ce36b6ecf657349e03eb87297e68da4"
   integrity sha512-UOo5FdvOL0+eIVTgS4tIdbW+TtnBLWg1YBCcU2KWM7nuNwRz9bksDX1bekJJCpu25N1DVWaCwnT39dVQxzqS8g==
 
-"@tweakpane/core@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@tweakpane/core/-/core-2.0.3.tgz#9ac511d1f73d3bcb61b8ddc47b09a6b2e9dfdd53"
-  integrity sha512-qHci4XA1Wngpwy8IzsLh5JEdscz8aDti/9YhyOaq01si+cgNDaZfwzTtXdn1+xTxSnCM+pW4Zb2/4eqn+K1ATw==
+"@tweakpane/core@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@tweakpane/core/-/core-2.0.4.tgz#8c896d49540c522d1bc503d3a2d3fde8715e4e0a"
+  integrity sha512-0P3xcmvjBr8AmqMOEDNYIbkiaPwvQPkj8VeJX+8ZYkpRgWWbNp1HLbld0MDI0WJHdom89osH3MmCDLnWEXKI2w==
 
 "@tweakpane/plugin-essentials@0.2.1":
   version "0.2.1"
@@ -2491,13 +2520,13 @@ mkdirp@^1.0.3:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-mml-web@0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/mml-web/-/mml-web-0.15.0.tgz#1405d89b3bf3df663cc01a357f849316c1d1c65c"
-  integrity sha512-0mZRqmEkQItJjUHcc8OQ9CenwaANTwe2U/l/PBqjGykIIuSbYs+x7DDeIe8fH7/kwPCiXNfl3Re6dxjH9pN+rg==
+mml-web@0.16.1:
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/mml-web/-/mml-web-0.16.1.tgz#76e75be06ad4e814ca2c5770a2337346772476bb"
+  integrity sha512-hP7aUu5cNom6rTuXIiqxj+HmL2MedLj3o55F1s+iH8ikja7PqXFQ6wuEysXQ5MakwJ3Oj3HIvJBgXrMHAAbyng==
   dependencies:
-    "@mml-io/model-loader" "^0.15.0"
-    "@mml-io/networked-dom-web" "^0.15.0"
+    "@mml-io/model-loader" "^0.16.1"
+    "@mml-io/networked-dom-web" "^0.16.1"
 
 moment@^2.29.4:
   version "2.30.1"
@@ -2547,6 +2576,15 @@ networked-dom-server@0.15.0:
     "@mml-io/networked-dom-document" "^0.15.0"
     "@mml-io/observable-dom" "^0.15.0"
     "@mml-io/observable-dom-common" "^0.15.0"
+
+networked-dom-server@0.16.1:
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/networked-dom-server/-/networked-dom-server-0.16.1.tgz#6fb46d53e19e8c5531e81de75b5b33d6499290d5"
+  integrity sha512-sueU1RNV+U62fLsEWRNHZG7NbcILDmvjLu5hvu0eShDKrxwgGYDv36Yeu5Q3qgRtBqD98LF3QWiIBoL3a7xFOg==
+  dependencies:
+    "@mml-io/networked-dom-document" "^0.16.1"
+    "@mml-io/observable-dom" "^0.16.1"
+    "@mml-io/observable-dom-common" "^0.16.1"
 
 node-domexception@^1.0.0:
   version "1.0.0"
@@ -2836,10 +2874,10 @@ postcss@^8.4.38:
     picocolors "^1.0.0"
     source-map-js "^1.2.0"
 
-postprocessing@6.35.4:
-  version "6.35.4"
-  resolved "https://registry.yarnpkg.com/postprocessing/-/postprocessing-6.35.4.tgz#51040e0d5cd4614d4f2fca1606911573c150ca5a"
-  integrity sha512-U4Uk+wOHRbdlMV8zhn843K3bZyiWGKnWXWSsDXa8IW6NAiAP/YJtf6DHs4UFo1gLnNnRGpgJPc2Xxai9O/HoLg==
+postprocessing@6.35.6:
+  version "6.35.6"
+  resolved "https://registry.yarnpkg.com/postprocessing/-/postprocessing-6.35.6.tgz#2289dbd7757279436a34a686da72dcbc66e53b68"
+  integrity sha512-df0K1zofbBCYcHDFmJtAw9TgyPJu6eITBG0iJeUBcNLagi0EwLBVl1tib+ypYYjChojhiNaib16mRwvu9ZoJIA==
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -2968,7 +3006,7 @@ raw-body@2.5.2:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-dom@^18.2.0, react-dom@^18.3.1:
+react-dom@^18.3.1:
   version "18.3.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.3.1.tgz#c2265d79511b57d479b3dd3fdfa51536494c5cb4"
   integrity sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==
@@ -2991,7 +3029,7 @@ react-use-measure@^2.1.1:
   dependencies:
     debounce "^1.2.1"
 
-react@^18.2.0, react@^18.3.1:
+react@^18.3.1:
   version "18.3.1"
   resolved "https://registry.yarnpkg.com/react/-/react-18.3.1.tgz#49ab892009c53933625bd16b2533fc754cab2891"
   integrity sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==
@@ -3421,10 +3459,10 @@ text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==
 
-three-mesh-bvh@0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/three-mesh-bvh/-/three-mesh-bvh-0.7.4.tgz#a5c799856a3f26f73537a73b6ec632c30f712ba8"
-  integrity sha512-flxe0A4uflTPR6elgq/Y8VrLoljDNS899i422SxQcU3EtMj6o8z4kZRyqZqGWzR0qMf1InTZzY1/0xZl/rnvVw==
+three-mesh-bvh@0.7.6:
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/three-mesh-bvh/-/three-mesh-bvh-0.7.6.tgz#6764b39475bdba9450ad3a4065492678ee537272"
+  integrity sha512-rCjsnxEqR9r1/C/lCqzGLS67NDty/S/eT6rAJfDvsanrIctTWdNoR4ZOGWewCB13h1QkVo2BpmC0wakj1+0m8A==
 
 three@0.163.0, three@^0.163.0:
   version "0.163.0"
@@ -3497,10 +3535,10 @@ tty-browserify@0.0.1:
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.1.tgz#3f05251ee17904dfd0677546670db9651682b811"
   integrity sha512-C3TaO7K81YvjCgQH9Q1S3R3P3BtN3RIM8n+OvX4il1K1zgE8ZhI0op7kClgkxtutIE8hQrcrHBXvIheqKUUCxw==
 
-tweakpane@4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/tweakpane/-/tweakpane-4.0.3.tgz#6bb8a24706916a33d59ab0e478c2a66a9928fc60"
-  integrity sha512-BlcWOAe8oe4c+k9pmLBARGdWB6MVZMszayekkixQXTgkxTaYoTUpHpwVEp+3HkoamZkomodpbBf0CkguIHTgLg==
+tweakpane@4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/tweakpane/-/tweakpane-4.0.4.tgz#db55a54721872b10a698fbf900506d8f4d4840d0"
+  integrity sha512-RkWD54zDlEbnN01wQPk0ANHGbdCvlJx/E8A1QxhTfCbX+ROWos1Ws2MnhOm39aUGMOh+36TjUwpDmLfmwTr1Fg==
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
@@ -3729,6 +3767,11 @@ ws@^7.4.6:
   version "7.5.9"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
   integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
+
+ws@^8.18.0:
+  version "8.18.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.0.tgz#0d7505a6eafe2b0e712d232b42279f53bc289bbc"
+  integrity sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==
 
 xml-name-validator@^5.0.0:
   version "5.0.0"
