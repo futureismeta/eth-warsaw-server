@@ -1,6 +1,7 @@
-export const PORT = process.env.PORT || 8080;
+export const PORT = process.env.PORT ?? 8080;
+export const HOST = process.env.HOST ?? `localhost:${PORT}`;
+export const PROTOCOL = process.env.PROTOCOL ?? 'http';
 
 export const characterDescription = {
-    meshFileUrl: '/assets/models/bot.glb',
-    // meshFileUrl: 'http://localhost:8080/assets/models/bot.glb',
+    meshFileUrl: `${PROTOCOL}://${HOST}/assets/models/bot.glb`,
 };
